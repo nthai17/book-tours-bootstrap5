@@ -42,11 +42,7 @@ a{
 }
 #main{
   margin-top: var(--header-height);
-}  
-#home{
-  background-image: url('./img/main-bg.jpg');
-  
-}
+} 
 #howitwork-section span{
   height: 60px;
   width: 60px;
