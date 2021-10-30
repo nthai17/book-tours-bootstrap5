@@ -64,3 +64,9 @@ a{
   transition: height 0.5s ease;
 }
 
+@media (max-width: 767px) {
+  .cover{
+    background-attachment: unset;
+  }
+}
+
