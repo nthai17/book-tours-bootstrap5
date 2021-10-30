@@ -1,0 +1,70 @@
+/* RESET RULES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root {
+  --main-color: #dc3545;
+  --header-height: 66px;
+}
+html{
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+*{
+  box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+.cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.padding-16{
+  padding: 16px;
+}
+.text-red{
+  color: var(--main-color);
+}
+
+
+/* main
+-------------------------------- */
+#header{
+  min-height: var(--header-height);
+  z-index: 99999;
+}
+#main{
+  margin-top: var(--header-height);
+}  
+#home{
+  background-image: url('./img/main-bg.jpg');
+  
+}
+#howitwork-section span{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+.popular-item img{
+  transition: all 0.3s ease;
+  filter: blur(3px);
+}
+.popular-item:hover img{
+  transform: scale(1.25);
+  filter: none;
+}
+.navbar-brand{
+  font-size: 1.7rem;
+}
+.navbar{
+  transition: height 0.5s ease;
+}
+
